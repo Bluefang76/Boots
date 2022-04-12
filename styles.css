@@ -1,0 +1,134 @@
+
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+
+h1, h2, h3, h4, p1, p2, iframe {
+    font-family: 'Readex pro', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-weight: normal;
+color: #af0000;
+}
+
+p1, p2 {
+    color: #ffffffff;
+}
+label {
+    color:#af0000;
+}
+
+a {
+    color: #1f1f1f;
+  }
+
+
+body {
+    background-color: #1f1f1f;
+  }
+
+  a:hover {
+    opacity: 1;
+    color: #ffffffff;
+ }
+ .nav-link {
+    opacity: 0.7;
+ }
+ 
+ .nav-link:hover {
+    opacity: 1;
+    background-color: rgb(75, 168, 255);
+ }
+
+
+ .container {
+    border-radius: 5px;
+    background-color: rgb(075, 168, 255) 0.6;
+    padding: 10px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  h1 {
+    background-color:#af0000, 0.6;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #af0000, 0.6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #af0000, 0.6;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation { 
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    opacity: 0.9; 
+    background-color: #af0000;
+  }
+  
+  .pics {
+    float: right;
+  }
+  .button {
+  background-color: #af0000;
+  border: none;
+  color: #1f1f1f;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 1;
+  background-color: #af0000;
+  color:#ffffffff
+}
+.words {
+font-family: sans-serif;
+font-size: 18px;
+}
